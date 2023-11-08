@@ -1,0 +1,12 @@
+:root {
+  --color: white;
+}
+
+body {
+  background-color: #083b4c;
+}
+
+h1 {
+  color: var(--color);
+  text-align: center;
+}

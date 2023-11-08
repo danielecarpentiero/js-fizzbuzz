@@ -1,10 +1,14 @@
+"use strict";
+
+const elementGrid = document.getElementById(grid);
+
 for (let number = 1; number <= 100; number++) {
   if (number % 3 == 0 && number % 5 == 0) {
-    console.log(number + " FizzBuzz");
+    console.log("FizzBuzz");
   } else if (number % 3 == 0) {
-    console.log(number + " Fizz");
+    console.log("Fizz");
   } else if (number % 5 == 0) {
-    console.log(number + " Buzz");
+    console.log("Buzz");
   } else {
     console.log(number);
   }
