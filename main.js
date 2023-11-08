@@ -8,5 +8,4 @@ for (let number = 1; number <= 100; number++) {
   } else {
     console.log(number);
   }
-  /* console.log(number); */
 }
